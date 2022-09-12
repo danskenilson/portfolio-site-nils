@@ -1,0 +1,170 @@
+/*
+Colors used:
+Primary Color (Blue): #909499;
+Secondary Color (Green): #80735E;
+Background Color (White): #FFFFFF
+*/
+/*
+
+font-family: 'Merriweather', serif;
+font-family: 'Smooch', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+*/
+body {
+  background-color: #ffffff;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #909499;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 1;
+  color: #909499;
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1;
+  color: #909499;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1;
+  color: #909499;
+}
+
+h4 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1;
+  color: #909499;
+}
+
+p {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #909499;
+}
+
+img {
+  width: 100%;
+}
+
+a:visited {
+  color: #80735E;
+  text-decoration: underline;
+}
+
+a:hover, a:focus {
+  color: #A9CCB6;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #CCB795;
+  text-decoration: underline;
+}
+
+a {
+  color: #CCB795;
+  text-decoration: underline;
+}
+
+.primarybutton:visited {
+  display: inline-block;
+  background-color: #80735E;
+  color: #FFFFFF;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  transition: 0.2s opacity;
+}
+
+.primarybutton:hover {
+  display: inline-block;
+  background-color: #A9CCB6;
+  color: #FFFFFF;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  transition: 0.2s opacity;
+}
+
+.primarybutton:active {
+  display: inline-block;
+  background-color: #CCB795;
+  color: #FFFFFF;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  transition: 0.2s opacity;
+}
+
+.primarybutton {
+  display: inline-block;
+  background-color: #CCB795;
+  color: #FFFFFF;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  transition: 0.2s opacity;
+}
+
+.secondarybutton:visited {
+  display: inline-block;
+  background-color: #FFFFFF;
+  color: #80735E;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-color: #80735E;
+  transition: 0.2s opacity;
+}
+
+.secondarybutton:hover {
+  display: inline-block;
+  background-color: #FFFFFF;
+  color: #A9CCB6;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-color: #A9CCB6;
+  transition: 0.2s opacity;
+}
+
+.secondarybutton:active {
+  display: inline-block;
+  background-color: #FFFFFF;
+  color: #CCB795;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border: 2px solid #CCB795;
+  transition: 0.2s opacity;
+}
+
+.secondarybutton {
+  display: inline-block;
+  background-color: #FFFFFF;
+  color: #CCB795;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border: 2px solid #CCB795;
+  transition: 0.2s opacity;
+}
