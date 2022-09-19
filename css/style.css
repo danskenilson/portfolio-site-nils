@@ -204,3 +204,20 @@ a {
   border-bottom: 1px solid #909499;
 }
 
+#hero {
+  background-color: #E6CEA8;
+  padding: 20px 8px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+#hero h1 {
+  margin: 0;
+  padding: 0.67em 0 0 0;
+}
+
+#hero p {
+  margin: 0;
+  padding: 0.67em 0;
+}
