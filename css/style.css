@@ -244,3 +244,13 @@ nav > ul > li > a {
 #nils-main {
 padding-top: 210px;
 }
+
+.social {
+  display: inline-block;
+  width: 40px;
+}
+
+#social {
+  list-style-type: none;
+  padding: 0;
+}
