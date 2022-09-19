@@ -192,3 +192,15 @@ a {
   border: 2px solid #E6CEA8;
   transition: 0.2s opacity;
 }
+
+/* Layout styling */
+
+.container {
+  padding: 0 16px;
+}
+
+#work .row {
+  margin: 25px 0;
+  border-bottom: 1px solid #909499;
+}
+
