@@ -27,6 +27,14 @@ header {
   width: 100%;
 }
 
+footer {
+  background-color: #A9CCB6;
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+
 body {
   background-color: #ffffff;
   font-family: 'Merriweather', sans-serif;
