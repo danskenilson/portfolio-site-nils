@@ -280,6 +280,12 @@ footer ul li svg {
   list-style-type: none;
   padding: 0;
 }
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
 @keyframes color-change {
   from {fill: #edc655;}
   to {fill: #f76414;}
