@@ -16,6 +16,10 @@ font-family: 'Oswald', sans-serif;
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   background-color: #606366;
   text-align: center;
