@@ -231,11 +231,7 @@ a {
   padding: 0.67em 0;
 }
 
-.logo {
-  max-width: 50px;
-}
-
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0;
 }
