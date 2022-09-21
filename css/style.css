@@ -247,7 +247,28 @@ nav>ul>li>a {
 }
 
 #nils-main {
-padding-top: 210px;
+  padding-top: 210px;
+}
+
+footer {
+  background-color: #A9CCB6;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li svg {
+  height: 40px;
+  margin: 10px 10px;
 }
 
 .social {
