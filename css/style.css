@@ -207,6 +207,12 @@ a {
   border-bottom: 1px solid #909499;
 }
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 #hero {
   background-color: #E6CEA8;
   padding: 20px 8px;
