@@ -103,6 +103,8 @@ a:active {
 a {
   color: #E6CEA8;
   text-decoration: underline;
+  transition-duration: 0.2s;
+  transition-property: all;
 }
 
 /*.primarybutton:visited {
@@ -123,7 +125,6 @@ a {
   padding: 10px;
   margin: 24px 0px;
   border-radius: 3px;
-  transition: 0.2s opacity;
 }
 
 .primarybutton:active {
@@ -134,7 +135,6 @@ a {
   padding: 10px;
   margin: 24px 0px;
   border-radius: 3px;
-  transition: 0.2s opacity;
 }
 
 .primarybutton {
@@ -145,6 +145,8 @@ a {
   padding: 10px;
   margin: 24px 0px;
   border-radius: 3px;
+  transition-duration: 0.2s;
+  transition-property: all;
   transition: 0.2s opacity;
 }
 
@@ -168,7 +170,6 @@ a {
   margin: 24px 0px;
   border-radius: 3px;
   border-color: #A9CCB6;
-  transition: 0.2s opacity;
 }
 
 .secondarybutton:active {
@@ -180,7 +181,6 @@ a {
   margin: 24px 0px;
   border-radius: 3px;
   border: 2px solid #E6CEA8;
-  transition: 0.2s opacity;
 }
 
 .secondarybutton {
@@ -192,6 +192,8 @@ a {
   margin: 24px 0px;
   border-radius: 3px;
   border: 2px solid #E6CEA8;
+  transition-duration: 0.2s;
+  transition-property: all;
   transition: 0.2s opacity;
 }
 
