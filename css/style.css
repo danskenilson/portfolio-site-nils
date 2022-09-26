@@ -153,6 +153,7 @@ a {
   padding: 10px;
   margin: 24px 0px;
   border-radius: 3px;
+  opacity: .6;
 }
 
 .primarybutton:active {
@@ -173,9 +174,9 @@ a {
   padding: 10px;
   margin: 24px 0px;
   border-radius: 3px;
-  transition-duration: 0.2s;
+  transition: 0.2s;
+  opacity: 1;
   transition-property: all;
-  transition: 0.2s opacity;
 }
 
 /*.secondarybutton:visited {
@@ -198,6 +199,7 @@ a {
   margin: 24px 0px;
   border-radius: 3px;
   border-color: #A9CCB6;
+  opacity: .6;
 }
 
 .secondarybutton:active {
@@ -220,9 +222,9 @@ a {
   margin: 24px 0px;
   border-radius: 3px;
   border: 2px solid #E6CEA8;
-  transition-duration: 0.2s;
+  transition: 0.2s;
+  opacity: 1;
   transition-property: all;
-  transition: 0.2s opacity;
 }
 
 /* Layout styling */
