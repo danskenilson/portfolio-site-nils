@@ -331,14 +331,24 @@ padding: 0 0 80px 0;
   padding: 0;
 }
 
+#about-picture {
+  width: 100%;
+  max-width: 600px;
+}
+
 [class*="col-"] {
   float: left;
   padding: 10px;
 }
 
 @keyframes color-change {
-  from {fill: #edc655;}
-  to {fill: #f76414;}
+  from {
+    fill: #edc655;
+  }
+
+  to {
+    fill: #f76414;
+  }
 }
 
 .sun {
@@ -346,8 +356,13 @@ padding: 0 0 80px 0;
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 .cloud-front {
@@ -355,16 +370,18 @@ padding: 0 0 80px 0;
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
-}
-
-
 
 /* ==============================
 Medium devices (640px and larger)
