@@ -18,9 +18,10 @@
 <body>
   <header id="nils-header">
     <div class="container">
-      <div>
-        <a href="index.html" class="logo">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="100" viewBox="0 0 200 100">
+      <div class="navtoggle" id="myNavtoggle">
+        <div>
+          <a href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="100" viewBox="0 0 200 100" id="logo">
               <defs>
                 <clipPath id="clip-Benutzerdefiniertes_Format_1">
                   <rect width="200" height="100" />
@@ -32,16 +33,18 @@
                 </text>
               </g>
             </svg>
-        </a>
-      </div>
-      <div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#nils-contact">Contact</a></li>
-          </ul>
-        </nav>
+          </a>
+        </div>
+        <div id="nav">
+          <nav>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#nils-contact" onclick="menuToggle()">Contact</a></li>
+              <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
   </header>
