@@ -134,6 +134,17 @@ a {
   transition-property: all;
 }
 
+.primarybutton:invalid {
+  display: inline-block;
+  background-color: #606366;
+  color: #FFFFFF;
+  font-weight: 400;
+  padding: 10px;
+  margin: 24px 0px;
+  border-radius: 3px;
+  opacity: .6;
+}
+
 /*.primarybutton:visited {
   display: inline-block;
   background-color: #80735E;
@@ -468,6 +479,7 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
+
 
   #my-story h2 {
     margin-top: 0;
