@@ -309,6 +309,15 @@ nav>ul>li>a:hover {
   padding-top: 16px;
 }
 
+.pparea {
+border-bottom: 1px solid #414345;
+margin-bottom: 16px;
+}
+
+svg > g > text {
+  fill: #FFFFFF
+}
+
 footer {
   background-color: #A9CCB6;
   padding: 10px 0;
