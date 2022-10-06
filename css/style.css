@@ -114,6 +114,7 @@ p {
 
 img {
   width: 100%;
+  margin: 16px 0;
 }
 
 /*a:visited {
@@ -313,7 +314,7 @@ nav>ul>li>a:hover {
 
 .pparea {
 border-bottom: 1px solid #414345;
-margin-bottom: 16px;
+margin-bottom: 32px;
 }
 
 svg > g > text {
