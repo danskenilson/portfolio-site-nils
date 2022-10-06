@@ -134,17 +134,6 @@ a {
   transition-property: all;
 }
 
-.primarybutton:invalid {
-  display: inline-block;
-  background-color: #606366;
-  color: #FFFFFF;
-  font-weight: 400;
-  padding: 10px;
-  margin: 24px 0px;
-  border-radius: 3px;
-  opacity: .6;
-}
-
 /*.primarybutton:visited {
   display: inline-block;
   background-color: #80735E;
@@ -155,39 +144,41 @@ a {
   border-radius: 3px;
   transition: 0.2s opacity;
 }*/
-
 .primarybutton:hover {
   display: inline-block;
-  background-color: #A9CCB6;
+  background-color: #B37AE6;
   color: #FFFFFF;
   font-weight: 400;
   padding: 10px;
-  margin: 24px 0px;
+  margin: 16px 0px;
   border-radius: 3px;
-  opacity: .6;
+  text-decoration: none;
+  /*opacity: .6;*/
 }
 
 .primarybutton:active {
   display: inline-block;
-  background-color: #E6CEA8;
+  background-color: #BF91E6;
   color: #FFFFFF;
   font-weight: 400;
   padding: 10px;
-  margin: 24px 0px;
+  margin: 16px 0px;
   border-radius: 3px;
+  text-decoration: none;
 }
 
 .primarybutton {
   display: inline-block;
-  background-color: #E6CEA8;
+  background-color: #BF91E6;
   color: #FFFFFF;
   font-weight: 400;
   padding: 10px;
-  margin: 24px 0px;
+  margin: 16px 0px;
   border-radius: 3px;
   transition: 0.2s;
   opacity: 1;
   transition-property: all;
+  text-decoration: none;
 }
 
 /*.secondarybutton:visited {
@@ -203,39 +194,56 @@ a {
 }*/
 .secondarybutton:hover {
   display: inline-block;
-  background-color: #FFFFFF;
-  color: #A9CCB6;
+  background-color: inherit;
+  color: #B37AE6;
   font-weight: 400;
   padding: 10px;
-  margin: 24px 0px;
+  margin: 16px 0px;
   border-radius: 3px;
-  border-color: #A9CCB6;
-  opacity: .6;
+  border-color: #B37AE6;
+  text-decoration: none;
+  /*opacity: .6;*/
 }
 
 .secondarybutton:active {
   display: inline-block;
-  background-color: #FFFFFF;
-  color: #E6CEA8;
+  background-color: inherit;
+  color: #BF91E6;
   font-weight: 400;
   padding: 10px;
-  margin: 24px 0px;
+  margin: 16px 0px;
   border-radius: 3px;
-  border: 2px solid #E6CEA8;
+  border: 2px solid #BF91E6;
+  text-decoration: none;
 }
 
 .secondarybutton {
   display: inline-block;
-  background-color: #FFFFFF;
-  color: #E6CEA8;
+  background-color: inherit;
+  color: #BF91E6;
   font-weight: 400;
   padding: 10px;
-  margin: 24px 0px;
+  margin: 16px 0px;
   border-radius: 3px;
-  border: 2px solid #E6CEA8;
+  border: 2px solid #BF91E6;
   transition: 0.2s;
   opacity: 1;
   transition-property: all;
+  text-decoration: none;
+}
+
+.disabledbutton, .disabledbutton:active, .disabledbutton:hover {
+  display: inline-block;
+  background-color: #41434580;
+  color: #FFFFFF;
+  font-weight: 400;
+  padding: 10px;
+  margin: 16px 0px;
+  border-radius: 3px;
+  transition: 0.2s;
+  opacity: 1;
+  text-decoration: none;
+  pointer-events: none;
 }
 
 /* Layout styling */
@@ -244,7 +252,7 @@ a {
 }
 
 #work .row {
-  margin: 25px 0;
+  margin: 16px 0;
   border-bottom: 1px solid #909499;
 }
 
