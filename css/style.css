@@ -41,7 +41,7 @@ header {
 }
 
 .navtoggle.responsive nav {
-  padding: 24px 0 0;
+  padding: 60px 0 0;
 }
 
 .navtoggle.responsive li {
@@ -265,11 +265,11 @@ nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 nav > ul > li {
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 nav > ul > li > a {
@@ -316,10 +316,8 @@ footer ul li svg {
 }
 
 #nav {
-  float: right;
-  display: block;
   position: relative;
-  width: 150px;
+  text-align: right;
 }
 
 #copyright {
@@ -409,6 +407,15 @@ Medium devices (640px and larger)
   .navtoggle li .icon {
     position: relative;
   }
+
+  .navtoggle.responsive nav{
+padding: 0px 0 0;
+}
+
+.navtoggle.responsive li {
+border-top: 1px solid transparent;
+padding: 0 0;
+}
 
   .navtoggle li:not(:last-child) {
     display: inline-block;
